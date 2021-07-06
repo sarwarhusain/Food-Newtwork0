@@ -5,13 +5,14 @@ body{
   h1{
     font-size: 60px;
   }
+  .green-color{
+    color: rgb(160, 51, 0);
+  }
   .flexible-container{
     display: flex;
     margin-bottom: 150px;
   }
-  .green-color{
-    color: rgb(160, 51, 0);
-  }
+
   .Link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -54,7 +55,11 @@ body{
     border: 5px 5px 20px;
     border-image: green;
     border-image-slice: 1;
-    
+  }
+  #recipies-title p{
+    font-size: 20px;
+    border-right: 5%;
+    text-align: left;
   }
   .recipies-area img{
     width: 100%;
